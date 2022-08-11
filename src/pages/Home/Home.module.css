@@ -1,4 +1,5 @@
 .feedDogSection {
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,4 +68,37 @@
 #feedDogSectionContentOptions {
   font-weight: 700;
   font-size: 1.3rem;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 1480px) {
+  .feedDogSectionMain {
+    display: grid;
+    grid-template-areas:
+      "infogrid"
+      "content";
+    grid-template-columns: 100%;
+  }
+
+  .feedDogSectionInfogrid {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #feedDogSectionContentTitle {
+    text-align: center;
+
+    font-size: 2rem;
+  }
+
+  .feedDogSectionContent p {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  #feedDogSectionContentOptions {
+    text-align: center;
+    font-size: 1.3rem;
+  }
 }

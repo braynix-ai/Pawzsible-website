@@ -12,7 +12,12 @@ export default () => {
       </nav>
       <main>
         <section>
-          <Carousel autoPlay={true} showThumbs={false} infiniteLoop={true}>
+          <Carousel
+            autoPlay={true}
+            showThumbs={false}
+            infiniteLoop={true}
+            showStatus={false}
+          >
             <div>
               <img src="banner.png" />
             </div>
