@@ -1,0 +1,70 @@
+.feedDogSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#feedDogSectionTitle {
+  color: #aa2d29;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.feedDogSectionMain {
+  display: grid;
+  grid-template-areas:
+    "infogrid ."
+    "infogrid content"
+    "infogrid .";
+  grid-template-columns: 50% 50%;
+}
+
+/* Feed dog section pictures */
+.feedDogSectionInfogrid {
+  grid-area: infogrid;
+  display: grid;
+  grid-template-areas:
+    ". dog2"
+    "dog1 dog2"
+    "dog1 dog3"
+    ". dog3";
+}
+
+#feedDogSectionDog1 {
+  grid-area: dog1;
+  justify-self: right;
+  margin: 1rem;
+}
+
+#feedDogSectionDog2 {
+  grid-area: dog2;
+  align-self: end;
+  margin: 1rem;
+}
+
+#feedDogSectionDog3 {
+  grid-area: dog3;
+  align-self: start;
+  margin: 1rem;
+}
+
+/* Feed dog section content */
+
+.feedDogSectionContent {
+  grid-area: content;
+}
+
+#feedDogSectionContentTitle {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.feedDogSectionContent p {
+  padding: 1rem 0;
+  font-size: 1.5rem;
+}
+
+#feedDogSectionContentOptions {
+  font-weight: 700;
+  font-size: 1.3rem;
+}
