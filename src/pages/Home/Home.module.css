@@ -207,7 +207,7 @@
 #ttut1 {
   margin: 1rem 0;
   font-weight: 700;
-  font-size: 57px;
+  font-size: 2rem;
   line-height: 86px;
   color: #2a1900;
 }
@@ -215,7 +215,7 @@
 #ttut2 {
   margin: 1rem 0;
   font-weight: 300;
-  font-size: 33px;
+  font-size: 1.5rem;
   line-height: 50px;
   color: #2a1900;
 }
@@ -224,9 +224,8 @@
   font-family: "Poppins";
   font-style: normal;
   font-weight: 300;
-  font-size: 33px;
+  font-size: 1.5rem;
   line-height: 50px;
-
   color: #2a1900;
 }
 
@@ -236,6 +235,28 @@
   line-height: 34px;
 
   color: #2a1900;
+}
+
+/* Footer */
+.fMain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fContent {
+  padding: 1rem;
+  color: white;
+  justify-self: center;
+}
+
+.fIconMain {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fIconMain img {
+  margin: 1.5rem;
 }
 
 /* mobile responsive */

@@ -229,11 +229,17 @@ export default () => {
                 </div>
 
                 <div style={{ display: "flex", marginTop: "8rem" }}>
-                  <div style={{ display: "flex" }}>
+                  <div style={{ display: "flex", alignItems: "center" }}>
                     <img src="talkToUs/verifiedlogo.png" alt="logo" />
                     <div id={styles.ttut4}>Verified Doctors</div>
                   </div>
-                  <div style={{ display: "flex", margin: "0 1rem" }}>
+                  <div
+                    style={{
+                      display: "flex",
+                      margin: "0 1rem",
+                      alignItems: "center",
+                    }}
+                  >
                     <img src="talkToUs/digitalprescribtion.png" alt="logo" />
                     <div id={styles.ttut4}>Digital Prescriptions</div>
                   </div>
@@ -247,7 +253,49 @@ export default () => {
             </div>
           </div>
         </section>
+
+        <section>How it works</section>
+
+        <section>Newsletter</section>
       </main>
+
+      <footer style={{ backgroundColor: "#000000" }}>
+        <div className={styles.fMain}>
+          <div className={styles.fContent}>
+            <div className={styles.fTitle}>Categories</div>
+            <div className={styles.fSubTitle}>
+              lorem ipsum • lorem ipsum • lorem ipsum
+            </div>
+          </div>
+
+          <div className={styles.fContent}>
+            <div className={styles.fTitle}>Categories</div>
+            <div className={styles.fSubTitle}>
+              lorem ipsum • lorem ipsum • lorem ipsum
+            </div>
+          </div>
+
+          <div className={styles.fContent}>
+            <div className={styles.fTitle}>Contact</div>
+            <div className={styles.fSubTitle}>Telephone: +55 XX XXXX-XXXX</div>
+            <div>Whatsapp: +55 XX XXXXX-XXXX</div>
+            <div>E-mail: xxxxxxxx@xxxxxxx.xxx</div>
+          </div>
+
+          <div className={styles.fContent}>
+            <div className={styles.fTitle}>Hours Active</div>
+            <div className={styles.fSubTitle}>loreum ipsum,lorem ipsum</div>
+          </div>
+        </div>
+
+        <div className={styles.fIconMain}>
+          <img src="footer/facebook.png" alt="facebook logo" />
+          <img src="footer/insta.png" alt="insta logo" />
+          <img src="footer/pin.png" alt="pintrest logo" />
+          <img src="footer/twitter.png" alt="twitter logo" />
+          <img src="footer/youtube.png" alt="youtube logo" />
+        </div>
+      </footer>
     </div>
   );
 };
