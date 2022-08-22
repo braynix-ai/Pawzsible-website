@@ -179,6 +179,65 @@
   font-size: 1.5rem;
 }
 
+/* Talk to Us */
+
+#ttuTitle {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 106px;
+  color: #000000;
+}
+
+#ttuSubTitle {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 51px;
+
+  color: #000000;
+}
+
+.ttuMain {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#ttut1 {
+  margin: 1rem 0;
+  font-weight: 700;
+  font-size: 57px;
+  line-height: 86px;
+  color: #2a1900;
+}
+
+#ttut2 {
+  margin: 1rem 0;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 50px;
+  color: #2a1900;
+}
+
+#ttut3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 33px;
+  line-height: 50px;
+
+  color: #2a1900;
+}
+
+#ttut4 {
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 34px;
+
+  color: #2a1900;
+}
+
 /* mobile responsive */
 @media screen and (max-width: 1480px) {
   .feedDogSectionMain {

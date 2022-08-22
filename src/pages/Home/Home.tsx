@@ -191,6 +191,62 @@ export default () => {
             </div>
           </div>
         </section>
+
+        <section
+          style={{
+            padding: "1rem 0",
+            display: "flex",
+            alignItems: "center",
+            flexDirection: "column",
+          }}
+        >
+          <div id={styles.ttuTitle}>Talk to Us!</div>
+          <div id={styles.ttuSubTitle}>
+            Now,save the travel and take Online Doctor Consultation
+          </div>
+        </section>
+
+        <section
+          style={{
+            padding: "1rem 0",
+            backgroundColor: "#fff0e3",
+          }}
+        >
+          <div style={{ padding: "1rem" }}>
+            <div className={styles.ttuMain}>
+              <div>
+                <div id={styles.ttut1}>We Intend to keep your Dog Healthy!</div>
+                <div id={styles.ttut2}>
+                  Get on a <b>Video Call</b> or have a <b>Chat</b> with a Vet!{" "}
+                </div>
+                <div id={styles.ttut3}>Prices start at just ₹ 199</div>
+
+                <div style={{ display: "flex", marginTop: "1rem" }}>
+                  <img src="talkToUs/d1.png" alt="doctor avatar" />
+                  <img src="talkToUs/d2.png" alt="doctor avatar" />
+                  <img src="talkToUs/d3.png" alt="doctor avatar" />
+                  <div id={styles.ttut3}>Over 250 Vets available!</div>
+                </div>
+
+                <div style={{ display: "flex", marginTop: "8rem" }}>
+                  <div style={{ display: "flex" }}>
+                    <img src="talkToUs/verifiedlogo.png" alt="logo" />
+                    <div id={styles.ttut4}>Verified Doctors</div>
+                  </div>
+                  <div style={{ display: "flex", margin: "0 1rem" }}>
+                    <img src="talkToUs/digitalprescribtion.png" alt="logo" />
+                    <div id={styles.ttut4}>Digital Prescriptions</div>
+                  </div>
+                </div>
+              </div>
+              <img
+                style={{ height: "600px" }}
+                src="talkToUs/ttudog.png"
+                alt="dog"
+              />
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
