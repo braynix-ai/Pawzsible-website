@@ -70,6 +70,115 @@
   font-size: 1.3rem;
 }
 
+/* Div carousel */
+
+.dcContainer {
+  margin: 0 auto;
+  position: relative;
+  height: 450px;
+  width: 350px;
+
+  border-radius: 29px;
+  padding: 1rem;
+}
+
+.dcTitle {
+  width: 161px;
+  height: 144px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 72px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.05em;
+
+  color: #643b0b;
+}
+
+.dcSubTitle {
+  margin: 1rem 0;
+  width: 111px;
+  height: 78px;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 39px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #643b0b;
+}
+
+.dcImage {
+  position: absolute;
+  right: 0;
+  height: 40%;
+}
+
+/* Popular Brands */
+
+.pbMain {
+  height: 150px;
+  background-color: #9dabe2;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#pbTitle {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 114px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+/* Groom Dog */
+
+.gdMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+#gdlImage {
+  height: 600px;
+  justify-self: center;
+}
+
+.gdrSubMain {
+  display: flex;
+  padding: 1rem 0;
+}
+
+.gdrSubMain img {
+  height: 150px;
+}
+
+#gdrTitle {
+  color: #aa2d29;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#gdrSubTitle {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 64px;
+
+  color: #000000;
+}
+
+.gdrContent {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+}
+
 /* mobile responsive */
 @media screen and (max-width: 1480px) {
   .feedDogSectionMain {
@@ -81,6 +190,10 @@
   }
 
   .feedDogSectionInfogrid {
+    display: none;
+  }
+
+  .pbMain {
     display: none;
   }
 }
