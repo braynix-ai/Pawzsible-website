@@ -1,0 +1,97 @@
+/* Our Paws */
+
+#pTitle {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 128px;
+  text-align: center;
+  color: #001a80;
+}
+
+.pMain {
+  display: flex;
+  justify-content: center;
+}
+
+.pSubMain {
+  padding: 5rem;
+  text-align: center;
+}
+
+.pSubImage {
+  margin: 0 auto;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+}
+
+.pSubName {
+  margin-top: 1rem;
+  color: #001a80;
+  font-weight: 700;
+}
+
+/* Bark At Us */
+
+.bauMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.baulMain {
+  justify-self: center;
+}
+
+.baulMain div {
+  padding: 1rem 0;
+  font-size: 1rem;
+}
+
+#baulTitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 62px;
+
+  color: #000000;
+}
+
+#baulEmail {
+  color: #2696ba;
+  font-weight: 300;
+  cursor: pointer;
+}
+
+.baurMain {
+  justify-self: center;
+}
+
+#baurTitle {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 62px;
+
+  color: #000000;
+}
+
+/* Footer */
+.fMain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fContent {
+  padding: 1rem;
+  color: white;
+  justify-self: center;
+}
+
+.fIconMain {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fIconMain img {
+  margin: 1.5rem;
+}

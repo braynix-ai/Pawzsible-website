@@ -1,13 +1,14 @@
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
 export default () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
-
+  const nav = useNavigate();
   return (
     <nav className={styles.navigation}>
-      <a href="/" className={styles.brandName}>
-        Pawssible
+      <a onClick={() => nav("/")} className={styles.brandName}>
+        <img style={{ height: "50px" }} src="logo1.png" alt="logo" />
       </a>
       <button
         className={styles.hamburger}
@@ -38,10 +39,10 @@ export default () => {
       >
         <ul>
           <li>
-            <a href="#">About Us</a>
+            <a onClick={() => nav("/aboutUs")}>About Us</a>
           </li>
           <li>
-            <a href="#">Teams</a>
+            <a onClick={() => nav("/team")}>Teams</a>
           </li>
           <li>
             <a href="#">Testimonials</a>

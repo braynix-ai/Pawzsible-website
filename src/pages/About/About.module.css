@@ -1,0 +1,85 @@
+/* Our Story */
+
+.sMain {
+  display: grid;
+  justify-self: center;
+  width: 50%;
+}
+
+#sTitle {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 128px;
+  color: #b23028;
+}
+
+#sSubTitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 42px;
+
+  color: #000000;
+}
+
+/* Our Values */
+
+#vTitle {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 105px;
+  margin-left: 15%;
+  color: #001a80;
+}
+
+.gdMain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+}
+
+#gdlImage {
+  height: 600px;
+  justify-self: center;
+}
+
+#gdrTitle {
+  color: #aa2d29;
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+#gdrSubTitle {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 64px;
+
+  color: #000000;
+}
+
+.gdrContent {
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+/* Footer */
+.fMain {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.fContent {
+  padding: 1rem;
+  color: white;
+  justify-self: center;
+}
+
+.fIconMain {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.fIconMain img {
+  margin: 1.5rem;
+}

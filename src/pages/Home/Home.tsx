@@ -7,7 +7,7 @@ import "react-multi-carousel/lib/styles.css";
 
 import styles from "./Home.module.css";
 
-export default () => {
+const Home = () => {
   const responsive = {
     superLargeDesktop: {
       breakpoint: { max: 3000, min: 1550 },
@@ -253,10 +253,10 @@ export default () => {
             </div>
           </div>
         </section>
-
+        {/* 
         <section>How it works</section>
 
-        <section>Newsletter</section>
+        <section>Newsletter</section> */}
       </main>
 
       <footer style={{ backgroundColor: "#000000" }}>
@@ -299,3 +299,5 @@ export default () => {
     </div>
   );
 };
+
+export default Home;
