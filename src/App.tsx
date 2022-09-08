@@ -7,7 +7,7 @@ import About from "./pages/About/About";
 import "./App.css";
 import Team from "./pages/Team/Team";
 
-export default () => {
+const App = () => {
   return (
     <div className="App">
       <Router>
@@ -20,3 +20,5 @@ export default () => {
     </div>
   );
 };
+
+export default App;
