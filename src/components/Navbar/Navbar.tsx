@@ -45,19 +45,19 @@ const Navbar = () => {
             <button onClick={() => nav("/team")}>Teams</button>
           </li>
           <li>
-            <button href="#">Testimonials</button>
+            <button>Testimonials</button>
           </li>
           <li>
-            <button href="#">Groom Your Dog</button>
+            <button>Groom Your Dog</button>
           </li>
           <li>
-            <button href="#">Feed Your Dog</button>
+            <button>Feed Your Dog</button>
           </li>
           <li>
-            <button href="#">Join Us</button>
+            <button>Join Us</button>
           </li>
           <li>
-            <button href="#">Consult a Vet</button>
+            <button>Consult a Vet</button>
           </li>
         </ul>
       </div>
