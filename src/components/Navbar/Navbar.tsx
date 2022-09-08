@@ -7,9 +7,9 @@ const Navbar = () => {
   const nav = useNavigate();
   return (
     <nav className={styles.navigation}>
-      <a onClick={() => nav("/")} className={styles.brandName}>
+      <button onClick={() => nav("/")} className={styles.brandName}>
         <img style={{ height: "50px" }} src="logo1.png" alt="logo" />
-      </a>
+      </button>
       <button
         className={styles.hamburger}
         onClick={() => {
@@ -39,25 +39,25 @@ const Navbar = () => {
       >
         <ul>
           <li>
-            <a onClick={() => nav("/aboutUs")}>About Us</a>
+            <button onClick={() => nav("/aboutUs")}>About Us</a>
           </li>
           <li>
-            <a onClick={() => nav("/team")}>Teams</a>
+            <button onClick={() => nav("/team")}>Teams</a>
           </li>
           <li>
-            <a href="#">Testimonials</a>
+            <button href="#">Testimonials</a>
           </li>
           <li>
-            <a href="#">Groom Your Dog</a>
+            <button href="#">Groom Your Dog</a>
           </li>
           <li>
-            <a href="#">Feed Your Dog</a>
+            <button href="#">Feed Your Dog</a>
           </li>
           <li>
-            <a href="#">Join Us</a>
+            <button href="#">Join Us</a>
           </li>
           <li>
-            <a href="#">Consult a Vet</a>
+            <button href="#">Consult a Vet</a>
           </li>
         </ul>
       </div>
