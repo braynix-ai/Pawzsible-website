@@ -42,16 +42,16 @@ const Home = () => {
             interval={7000}
           >
             <div>
-              <img src="banner/b1.gif" />
+              <img src="banner/b1.gif" alt="banner 1" />
             </div>
             <div>
-              <img src="banner/b2.gif" />
+              <img src="banner/b2.gif" alt="banner 2" />
             </div>
             <div>
-              <img src="banner/b3.gif" />
+              <img src="banner/b3.gif" alt="banner 3" />
             </div>
             <div>
-              <img src="banner/b4.gif" />
+              <img src="banner/b4.gif" alt="banner 4" />
             </div>
           </BannerCarousel>
         </section>
