@@ -2,7 +2,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Navbar.module.css";
 
-export default () => {
+const Navbar = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
   const nav = useNavigate();
   return (
@@ -64,3 +64,5 @@ export default () => {
     </nav>
   );
 };
+
+export default Navbar;
