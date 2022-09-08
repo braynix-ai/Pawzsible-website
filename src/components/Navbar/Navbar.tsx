@@ -39,10 +39,10 @@ const Navbar = () => {
       >
         <ul>
           <li>
-            <button onClick={() => nav("/aboutUs")}>About Us</a>
+            <button onClick={() => nav("/aboutUs")}>About Us</button>
           </li>
           <li>
-            <button onClick={() => nav("/team")}>Teams</a>
+            <button onClick={() => nav("/team")}>Teams</button>
           </li>
           <li>
             <button href="#">Testimonials</button>
